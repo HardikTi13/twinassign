@@ -1,0 +1,43 @@
+{
+  "name": "twinmind",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Real-time AI Meeting Copilot powered by Groq (Whisper V3 & Llama 3).",
+  "author": "Hardik Tiwari",
+  "license": "MIT",
+  "homepage": "https://github.com/HardikTi13/twinassign#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HardikTi13/twinassign.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HardikTi13/twinassign/issues"
+  },
+  "keywords": [
+    "ai",
+    "meeting-copilot",
+    "groq",
+    "transcription",
+    "whisper",
+    "real-time",
+    "react"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "groq-sdk": "^0.7.0",
+    "marked": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8"
+  }
+}
